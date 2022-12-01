@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Components">
+			<folder name="FilterComponent">
+				<child name="EpisodeComponent" key="{02A0AB82-75F4-4987-8234-7A585530405C}" path="EpisodeComponent.tcKDTest" />
+			</folder>
+			<folder name="TabComponent">
+				<child name="TabNavigation" key="{5FAD0296-95DC-45A5-968F-244ABCA776DB}" path="TabNavigation.tcKDTest" />
+			</folder>
+		</folder>
+		<folder name="Pages">
+			<folder name="ExecutiveSummary">
+				<child name="TitleValidation1" key="{6A34F02F-EA9A-47D2-B806-EBCA325B7181}" path="TitleValidation1.tcKDTest" />
+			</folder>
+			<folder name="Login">
+				<child name="Login" key="{EC161939-3A32-47FD-881B-A2E8EB500BF8}" path="Login.tcKDTest" />
+			</folder>
+			<folder name="EpisodeSummary">
+				<child name="TitleValidation2" key="{DDFAC0BC-A2C7-473E-B834-2F97A4F75B81}" path="TitleValidation2.tcKDTest" />
+				<child name="NavToEpisodeSummary" key="{3440ABDD-B751-4206-A31E-EDC8DE3195F2}" path="NavToEpisodeSummary.tcKDTest" />
+				<child name="EpisodeNameCheck" key="{AA586EE0-BB17-424D-ACA6-63913B6614CA}" path="EpisodeNameCheck.tcKDTest" />
+				<child name="ChangeEpisodeToAMI" key="{EAE0C6F5-10C2-41BF-B5D0-CCB1B9E1DBF8}" path="ChangeEpisodeToAMI.tcKDTest" />
+				<child name="ChangeEpisodeToCARDARR" key="{52912984-E314-4FA6-9744-015140C8D2EA}" path="ChangeEpisodeToCARDARR.tcKDTest" />
+				<child name="KPIDatavalidation" key="{B2447082-9D6D-4500-B78D-AD642D7FF1EB}" path="KPIDatavalidation.tcKDTest" />
+				<child name="ChartValidation" key="{7797D8C2-BAD9-4938-840C-F9EBF889393C}" path="ChartValidation.tcKDTest" />
+			</folder>
+		</folder>
+		<folder name="Tests" />
+		<folder name="UtilBrowser">
+			<child name="OpenBrowser" key="{90B21AA0-153F-451B-90FE-A1C777F34982}" path="OpenBrowser.tcKDTest" />
+			<child name="CloseBrowser" key="{0CFF0FC2-C09F-49E3-BCBF-6F01C5DA8668}" path="CloseBrowser.tcKDTest" />
+		</folder>
+	</children>
+</Root>

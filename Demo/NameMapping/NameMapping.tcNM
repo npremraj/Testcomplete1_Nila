@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{612E3F22-A0CC-4DB4-85E8-5771ADC4328F}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="explorer" Key="{D9F37426-893F-47A7-BAB1-5938D8D01EC0}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{EC7F9970-1E5D-456B-84E6-227F1C843358}">
+								<Image FileName="1490527553" Left="0" Top="0" Right="1280" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{60D05563-F5C9-46B0-9B09-947BB1A6F22B}">
+										<Image FileName="1490527553" Left="142" Top="0" Right="1091" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{BAE64805-56CB-422E-86D4-0115C209BF9C}">
+												<Image FileName="1490527553" Left="144" Top="0" Right="1091" Bottom="40" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{9770FAD4-5E84-4A5E-88A7-557E987C2B47}">
+														<Image FileName="1490527553" Left="144" Top="0" Right="1091" Bottom="40" />
+														<TypeInfo Item0="{829DDA9A-B4CE-49E1-B371-10A20FF7DB90}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{EAF6A37C-DA6E-48B5-BD63-2786101D31E4}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{3498BC69-466C-4FCF-8464-06B598E292E1}">
+								<Image FileName="910005130" Left="-8" Top="-8" Right="1288" Bottom="688" />
+								<TypeInfo Item0="{9EE8BBF6-32E7-4EE0-9550-BA91B6FD2ED3}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLogin" Key="{5D0D209E-BD5E-436D-8EE6-03067E471164}">
+								<Image FileName="-2099076875" Left="0" Top="71" Right="1233" Bottom="680" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://analyticsdev.guidehouse.com/spotfire/resources/custom-login/guidehouselogin.html*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{494D0761-CC84-4C95-A9A1-B90FE4F199BB}">
+										<Image FileName="-2099076875" Left="267" Top="221" Right="967" Bottom="413" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@name=&apos;form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Keep me logged in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-valid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tssCustomLoginAppController&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInputemail3" Key="{051EF5C3-83A4-4709-B226-27196EC229EB}">
+										<Image FileName="-2099076875" Left="512" Top="236" Right="722" Bottom="266" />
+										<TypeInfo Item0="{3B4DCB3D-64C4-4C08-9015-222EED647D8F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#inputEmail3" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxInputpassword3" Key="{7F2B4066-47A6-4D30-B0DF-A9CA95E48BD7}">
+										<Image FileName="1122193120" Left="512" Top="271" Right="722" Bottom="301" />
+										<TypeInfo Item0="{3B4DCB3D-64C4-4C08-9015-222EED647D8F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#inputPassword3" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogIn" Key="{8E7A73EF-4F4F-42B1-BE73-8D2A2F8EFA76}">
+										<Image FileName="561958170" Left="542" Top="342" Right="692" Bottom="377" />
+										<TypeInfo Item0="{5D995BDD-ADCE-43BE-8612-180CCF7CC328}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Log in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;LoginButton&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tssCustomLoginAppController&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_2" Key="{6A5B1FC0-353D-4B28-A13B-B5A4B3CFC03F}">
+								<Image FileName="1387474061" Left="0" Top="0" Right="322" Bottom="135" />
+								<TypeInfo Item0="{A11335F6-2221-4C05-85CA-2968D81052BC}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_2" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Saved password automatically" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageAnalysis" Key="{D4B4B5DD-9824-4865-9C80-727DC561A350}">
+								<Image FileName="-722738420" Left="0" Top="71" Right="1233" Bottom="680" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://analyticsdev.guidehouse.com/spotfire/wp/analysis*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{E49FF95A-DC06-4293-BC60-16936198A60A}">
+										<Image FileName="-722738420" Left="590" Top="128" Right="1202" Bottom="193" />
+										<TypeInfo Item0="{3F47932B-68B7-4403-90F6-5717AC879594}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]//div[2]//div[4]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEpisodeSummary" Key="{1B3F909E-2E6C-479E-AD08-16CA7B2FB48A}">
+										<Image FileName="-1847955149" Left="155" Top="650" Right="253" Bottom="662" />
+										<TypeInfo Item0="{3F47932B-68B7-4403-90F6-5717AC879594}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[.=&apos;%TabName%&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEpisodeSummaryDashboard" Key="{36F69264-67E9-45B1-A54C-9EDB2AFA0658}">
+										<Image FileName="766827425" Left="669" Top="130" Right="1124" Bottom="166" />
+										<TypeInfo Item0="{3F47932B-68B7-4403-90F6-5717AC879594}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[.=&apos;Episode Summary Dashboard&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeIpSepsis" Key="{02B1CEC5-D25C-47FF-8CA4-2173079B16C0}">
+										<Image FileName="1203943603" Left="130" Top="260" Right="181" Bottom="274" />
+										<TypeInfo Item0="{3F47932B-68B7-4403-90F6-5717AC879594}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;IP-Sepsis&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[@id=&apos;ui-accordion-accordion-header-1&apos;]//span/span/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[@id=&apos;ui-accordion-accordion-header-1&apos;]/span/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUiAccordionAccordionHead" Key="{D91D423E-25B3-49AF-9362-FF450879A518}">
+										<Image FileName="-733875510" Left="17" Top="253" Right="268" Bottom="283" />
+										<TypeInfo Item0="{3F47932B-68B7-4403-90F6-5717AC879594}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ui-accordion-accordion-header-1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(text(), &apos;Episode Name:&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAmi" Key="{15B27D28-7BA8-42F7-AEFB-2DCFA558003F}">
+										<Image FileName="1729121440" Left="45" Top="331" Right="202" Bottom="346" />
+										<TypeInfo Item0="{3F47932B-68B7-4403-90F6-5717AC879594}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[.=&apos;%EpisodeName%&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCardarr" Key="{132E0358-28B8-4743-810C-FCD78AA97D46}">
+										<Image FileName="1691168707" Left="45" Top="346" Right="202" Bottom="361" />
+										<TypeInfo Item0="{3F47932B-68B7-4403-90F6-5717AC879594}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[.=&apos;CARDARR&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;CARDARR&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeIpCardiacArrhythmia" Key="{F8966E50-A03C-4B54-8B5A-67860552266C}">
+										<Image FileName="-847341550" Left="130" Top="260" Right="247" Bottom="274" />
+										<TypeInfo Item0="{3F47932B-68B7-4403-90F6-5717AC879594}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;IP-Cardiac Arrhythmia&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[@id=&apos;ui-accordion-accordion-header-1&apos;]//span/span/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[@id=&apos;ui-accordion-accordion-header-1&apos;]/span/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel36667" Key="{F3C618BA-E84E-43B9-ADF8-5F2CC1AC2AC6}">
+										<Image FileName="1842175011" Left="308" Top="280" Right="425" Bottom="314" />
+										<TypeInfo Item0="{1C58AFCC-6212-4C0C-B829-E96006C66A13}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;$36,667&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[contains(@class, &apos;KpiValue&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{3FFA61C8-8B87-4C7A-B12C-A57477AD9219}">
+										<Image FileName="-1341028575" Left="289" Top="103" Right="951" Bottom="394" />
+										<TypeInfo Item0="{1C58AFCC-6212-4C0C-B829-E96006C66A13}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[10]//div[2]//div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="explorer" Owner="{D9F37426-893F-47A7-BAB1-5938D8D01EC0}">
+			<Child Name="wndShell_TrayWnd" Owner="{EC7F9970-1E5D-456B-84E6-227F1C843358}">
+				<Child Name="ReBarWindow32" Owner="{60D05563-F5C9-46B0-9B09-947BB1A6F22B}">
+					<Child Name="MSTaskSwWClass" Owner="{BAE64805-56CB-422E-86D4-0115C209BF9C}">
+						<Child Name="MSTaskListWClass" Owner="{9770FAD4-5E84-4A5E-88A7-557E987C2B47}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="browser" Owner="{EAF6A37C-DA6E-48B5-BD63-2786101D31E4}">
+			<Child Name="BrowserWindow" Owner="{3498BC69-466C-4FCF-8464-06B598E292E1}" />
+			<Child Name="pageLogin" Owner="{5D0D209E-BD5E-436D-8EE6-03067E471164}">
+				<Child Name="form" Owner="{494D0761-CC84-4C95-A9A1-B90FE4F199BB}">
+					<Child Name="textboxInputemail3" Owner="{051EF5C3-83A4-4709-B226-27196EC229EB}" />
+					<Child Name="passwordboxInputpassword3" Owner="{7F2B4066-47A6-4D30-B0DF-A9CA95E48BD7}" />
+					<Child Name="buttonLogIn" Owner="{8E7A73EF-4F4F-42B1-BE73-8D2A2F8EFA76}" />
+				</Child>
+			</Child>
+			<Child Name="wndChrome_WidgetWin_2" Owner="{6A5B1FC0-353D-4B28-A13B-B5A4B3CFC03F}" />
+			<Child Name="pageAnalysis" Owner="{D4B4B5DD-9824-4865-9C80-727DC561A350}">
+				<Child Name="panel" Owner="{E49FF95A-DC06-4293-BC60-16936198A60A}" />
+				<Child Name="textnodeEpisodeSummary" Owner="{1B3F909E-2E6C-479E-AD08-16CA7B2FB48A}" />
+				<Child Name="textnodeEpisodeSummaryDashboard" Owner="{36F69264-67E9-45B1-A54C-9EDB2AFA0658}" />
+				<Child Name="textnodeIpSepsis" Owner="{02B1CEC5-D25C-47FF-8CA4-2173079B16C0}" />
+				<Child Name="textnodeUiAccordionAccordionHead" Owner="{D91D423E-25B3-49AF-9362-FF450879A518}" />
+				<Child Name="panelAmi" Owner="{15B27D28-7BA8-42F7-AEFB-2DCFA558003F}" />
+				<Child Name="panelCardarr" Owner="{132E0358-28B8-4743-810C-FCD78AA97D46}" />
+				<Child Name="textnodeIpCardiacArrhythmia" Owner="{F8966E50-A03C-4B54-8B5A-67860552266C}" />
+				<Child Name="panel36667" Owner="{F3C618BA-E84E-43B9-ADF8-5F2CC1AC2AC6}" />
+				<Child Name="panel2" Owner="{3FFA61C8-8B87-4C7A-B12C-A57477AD9219}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

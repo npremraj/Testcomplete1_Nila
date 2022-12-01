@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{52912984-E314-4FA6-9744-015140C8D2EA}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="44890.2434953704" objectName="Aliases.browser.pageAnalysis.textnodeUiAccordionAccordionHead" objectLeft="17" objectTop="253" objectRight="268" objectBottom="283" clickPointX="191" clickPointY="269" imageFileName="tcvi411397015464280.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44890.243599537" objectName="Aliases.browser.pageAnalysis.panelCardarr" objectLeft="45" objectTop="346" objectRight="202" objectBottom="361" clickPointX="90" clickPointY="350" imageFileName="tcvi411405750464282.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44890.2437731481" objectName="Aliases.browser.pageAnalysis.textnodeIpCardiacArrhythmia" objectLeft="130" objectTop="260" objectRight="247" objectBottom="274" clickPointX="161" clickPointY="266" imageFileName="tcvi411421328464283.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

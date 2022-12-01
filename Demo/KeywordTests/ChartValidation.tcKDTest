@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{F68A01D9-0D89-4AD9-AF37-BE10CD4E2BE8}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{0C2E7372-2A09-499E-A447-2907ABD7FE30}">
+				<Data Description="Check whether %p2 matches the text optically recognized in the image %p1.">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="SearchArea" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageAnalysis.panel2" />
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="9" ValueValue="2A0032003000310034000A0032003000310035000A0032003000310036000A0032003000310037000A0032003000310038000A0032003000310039000A0032003000320030000A002A00" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{8BEFB4C3-CDFE-48F5-A446-C9364392A080}" />
+</Root>
